@@ -1,0 +1,5 @@
+num1 = int(100)
+num2 = int(2)
+num3 = int(20)
+print(num1 / num2)
+print(num3 / num2)
