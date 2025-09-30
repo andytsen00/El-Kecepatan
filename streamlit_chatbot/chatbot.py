@@ -9,7 +9,7 @@ USER_AVATAR = "⛹️‍♂️"
 BOT_AVATAR = "robot.jpg"  # replace with your bot image path or emoji
 
 # --- Configure Gemini API ---
-GOOGLE_API_KEY = "AIzaSyCLCH34zcTB-aPrcoM1UJhV7oN0EgbMWb0"
+GOOGLE_API_KEY = st.secrets["API"]
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
