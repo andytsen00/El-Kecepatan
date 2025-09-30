@@ -6,7 +6,7 @@ import pandas as pd
 
 # --- Avatar Constants ---
 USER_AVATAR = "⛹️‍♂️"
-BOT_AVATAR = "robot.jpg"  # replace with your bot image path or emoji
+BOT_AVATAR = "streamlit_chatbot/robot.jpg"  # replace with your bot image path or emoji
 
 # --- Configure Gemini API ---
 GOOGLE_API_KEY = st.secrets["GOOGLE_API_KEY"]
